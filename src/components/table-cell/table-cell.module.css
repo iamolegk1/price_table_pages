@@ -1,0 +1,35 @@
+.editedInput {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid var(--gray-global-color);
+  border-radius: 4px;
+}
+
+.editedInput:focus {
+  outline: none;
+  border: 1px solid var(--blue-global-color);
+}
+
+.buttonCell td {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.deleteButton {
+  background-color: var(--red-global-color);
+  color: var(--white-global-color);
+}
+
+.deleteButton:hover {
+  background-color: var(--button-delete-hover-color);
+}
+
+.saveButton {
+  background-color: var(--button-green-color);
+  color: var(--white-global-color);
+}
+
+.saveButton:hover {
+  background-color: var(--button-green-hover-color);
+}

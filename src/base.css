@@ -1,0 +1,39 @@
+:root {
+  --white-global-color: #ffffff;
+  --blue-global-color: #005b96;
+  --gray-global-color: #333;
+  --red-global-color: #ff3333;
+  --gray-light-global-color: #cccccc;
+  --button-delete-color: #ff3335;
+  --button-delete-hover-color: #d50000;
+  --button-green-color: #2ecc71;
+  --button-green-hover-color: #27ae60;
+  --input--border-color: #0070f3;
+  --input--error-color: #dc3545;
+  --form-background-color: #ddd;
+  --form-button-color: #007bff;
+  --form-button-hover-color: #0062cc;
+  --table-bg-color: #f2f2f2;
+  --table-header-color: #333;
+  --table-border-color: #ddd;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}

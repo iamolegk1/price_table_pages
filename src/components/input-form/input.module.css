@@ -1,0 +1,30 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.input label {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.input input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid var(--white-global-color);
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 4px;
+}
+
+.input input:focus {
+  outline: none;
+  border-color: var(--input--border-color);
+}
+
+.input span {
+  font-size: 14px;
+  color: var(--input--error-color);
+  margin-top: 4px;
+}
